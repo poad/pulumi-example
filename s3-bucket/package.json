@@ -1,0 +1,35 @@
+{
+  "name": "s3-bucket",
+  "version": "0.1.0",
+  "bin": {
+    "s3-bucket": "bin/s3-bucket.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "vitest run --silent",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^2.0.1",
+    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/js": "^9.39.2",
+    "@stylistic/eslint-plugin": "^5.7.1",
+    "@types/node": "^24.10.9",
+    "aws-cdk": "^2.1103.0",
+    "eslint": "^9.39.2",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "jiti": "^2.6.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.53.1",
+    "vitest": "^4.0.18"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.236.0",
+    "constructs": "^10.4.5"
+  }
+}

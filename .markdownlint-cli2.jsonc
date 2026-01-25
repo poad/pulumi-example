@@ -1,0 +1,47 @@
+{
+  // markdownlint-cli2 configuration
+  // See: https://github.com/DavidAnson/markdownlint-cli2#configuration
+
+  // Glob patterns to ignore
+  "ignores": [
+    "node_modules/**",
+    "**/node_modules/**",
+    ".git/**",
+    ".amazonq/**"
+  ],
+
+  // markdownlint rules configuration
+  "config": {
+    // Line length rule (extended)
+    "line-length": {
+      "line_length": 120,
+      "heading_line_length": 120,
+      "code_blocks": false,
+      "tables": false
+    },
+
+    // Allow inline HTML
+    "no-inline-html": false,
+
+    // Allow multiple top-level headings
+    "no-multiple-toplevel-headings": false,
+
+    // Require proper list indentation
+    "list-indentation": true,
+
+    // Require blanks around lists
+    "blanks-around-lists": true,
+
+    // Require blanks around headings
+    "blanks-around-headings": true,
+
+    // No bare URLs in markdown
+    "no-bare-urls": true,
+
+    // Consistent list markers (use -)
+    "list-marker-space": true,
+
+    // No trailing spaces
+    "no-trailing-spaces": true
+  }
+}

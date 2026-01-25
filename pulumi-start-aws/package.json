@@ -1,0 +1,23 @@
+{
+  "name": "pulumi-start-aws",
+  "main": "index.ts",
+  "scripts": {
+    "oxlint": "oxlint",
+    "oxlint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "pnpm fmt:check && pnpm oxlint",
+    "lint-fix": "pnpm fmt && pnpm oxlint:fix"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^7.16.0",
+    "@pulumi/awsx": "^3.1.0",
+    "@pulumi/pulumi": "^3.217.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "oxfmt": "^0.26.0",
+    "oxlint": "^1.41.0",
+    "typescript": "^5.9.3"
+  }
+}

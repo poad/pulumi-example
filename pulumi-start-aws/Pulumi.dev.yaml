@@ -1,0 +1,5 @@
+encryptionsalt: v1:WDxnjxxzSYk=:v1:mMOktnztSWeiU9+B:QBIMFXuOaBg3mE5E6jBHTdmnq6+7ZA==
+config:
+  aws:region: us-west-2
+  pulumi:autonaming:
+    mode: verbatim
