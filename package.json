@@ -2,5 +2,5 @@
   "name": "pulumi-example",
   "version": "0.1.0",
   "type": "module",
-  "packageManager": "pnpm@10.28.1"
+  "packageManager": "pnpm@10.28.2"
 }
