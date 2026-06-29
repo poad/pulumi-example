@@ -15,7 +15,7 @@
     "@pulumi/pulumi": "^3.217.0"
   },
   "devDependencies": {
-    "@types/node": "^24",
+    "@types/node": "^26",
     "oxfmt": "^0.55.0",
     "oxlint": "^1.53.0",
     "typescript": "^6.0.2"
