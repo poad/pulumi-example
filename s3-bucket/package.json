@@ -12,7 +12,6 @@
     "cdk": "cdk"
   },
   "devDependencies": {
-    "@eslint/compat": "^2.0.1",
     "@eslint/eslintrc": "^3.3.3",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.7.1",
