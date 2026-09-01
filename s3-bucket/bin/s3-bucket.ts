@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-import * as cdk from 'aws-cdk-lib/core';
 import { S3BucketStack } from '../lib/s3-bucket-stack.js';
+import * as cdk from 'aws-cdk-lib/core';
 
 const app = new cdk.App();
-new S3BucketStack(app, 'pulumi-s3-bucket-stack', {
+new S3BucketStack(app, 'PulumiS3Bucket', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */

@@ -1,11 +1,17 @@
 packages:
-  - .
-  - ./platform
-  - ./example/client
+  - pulumi-start-aws
+  - s3-bucket
+
+allowBuilds:
+  '@pulumi/docker': false
+  '@pulumi/docker-build': false
+  esbuild: false
+  protobufjs: false
+  unrs-resolver: false
 
 minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
-  - pnpm@11.24.0
+  - pnpm@11.25.0 || 12.2.1
 
 overrides:
   '@types/react': '>=19.2.2'
