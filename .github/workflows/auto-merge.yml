@@ -5,12 +5,13 @@ on:
     branches:
       - main
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   auto-merge:
     runs-on: ubuntu-latest
-    permissions:
-      id-token: write
-      contents: read
 
     if: ${{ !github.event.pull_request.draft }}
 
