@@ -12,10 +12,10 @@
   "dependencies": {
     "@pulumi/aws": "^7.48.0",
     "@pulumi/awsx": "^3.10.0",
-    "@pulumi/pulumi": "^3.266.0"
+    "@pulumi/pulumi": "^3.267.0"
   },
   "devDependencies": {
-    "@types/node": "^26.6.3",
+    "@types/node": "^26.6.4",
     "oxfmt": "^0.71.0",
     "oxlint": "^1.86.0",
     "typescript": "^7.0.2"
