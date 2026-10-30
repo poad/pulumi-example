@@ -183,8 +183,8 @@ importers:
         specifier: ^3.11.0
         version: 3.11.0(typescript@7.0.2)
       '@pulumi/pulumi':
-        specifier: ^3.271.0
-        version: 3.271.0(typescript@7.0.2)
+        specifier: ^3.272.0
+        version: 3.272.0(typescript@7.0.2)
     devDependencies:
       '@types/node':
         specifier: ^26.6.5
@@ -224,8 +224,8 @@ importers:
         specifier: npm:typescript@^7.0.2
         version: typescript@7.0.2
       aws-cdk:
-        specifier: ^2.1146.0
-        version: 2.1146.0
+        specifier: ^2.1146.1
+        version: 2.1146.1
       eslint:
         specifier: ^10.13.0
         version: 10.13.0(jiti@2.7.0)
@@ -275,8 +275,8 @@ packages:
       - jsonschema
       - semver
 
-  '@aws-sdk/client-ecs@3.1155.0':
-    resolution: {integrity: sha512-SbADWBcBwkEKM1h8N2EtpqyLpax7t6M0Awxuy1GEvDiI8v38S70BFSvSd+hmMQoOWKncmH8dWoMqDFh7PHT9KA==}
+  '@aws-sdk/client-ecs@3.1156.0':
+    resolution: {integrity: sha512-Y6nC8/+MUodxR3ssoWh8eF2IBVmba6CW7E4/YEtmTeYOlK43xzkcP8Aix+aErCsrm1v4BnH/yFCfx/xg2I1rgQ==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.978.5':
@@ -1095,8 +1095,8 @@ packages:
   '@pulumi/docker@4.11.2':
     resolution: {integrity: sha512-mm8Uscb/3S7OieYyg1E/vvFx3OS4bAkZvtFvi1yTqYda9NbnYOMbJi7a5fU5xB0N0Kd/uliS8olJ/e6nnvVVPg==}
 
-  '@pulumi/pulumi@3.271.0':
-    resolution: {integrity: sha512-5Ol0JIf0vCbiFj1j3r0hvdaCSCbCURhfOxpNvTsE1qhjJS3m665UG1qO3HKrB6T9mD7OzgcD1y4PbL6EGl0gjg==}
+  '@pulumi/pulumi@3.272.0':
+    resolution: {integrity: sha512-DepbT+tA3HnNo5+OtEMEevK1pC45PD/71sQh3tlWYFtW4tjuZijAQprvgCYcQUKNwRP3/Y3z83Kbvxn7y9HR2w==}
     engines: {node: '>=22'}
     peerDependencies:
       ts-node: '>= 7.0.1 < 12'
@@ -1670,8 +1670,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1146.0:
-    resolution: {integrity: sha512-MwIIRSSVGMFDwe0MysbD4H8UjUwC1Cfn/3WjShsjdmgwPlyFn/n4Vrn5pYxIoUCjRUBsPLtq0t5a0LSE2Um/eg==}
+  aws-cdk@2.1146.1:
+    resolution: {integrity: sha512-Sb3RHuPt8yLP4BPFNl+D2li5wI9h4UL/+NYVq8FCxmDfUJwayzEOc/Tgb4wcixB8naOmPOLzhWkdbFx17tuhSg==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -2958,7 +2958,7 @@ snapshots:
 
   '@aws-cdk/cloud-assembly-schema@55.2.0': {}
 
-  '@aws-sdk/client-ecs@3.1155.0':
+  '@aws-sdk/client-ecs@3.1156.0':
     dependencies:
       '@aws-sdk/core': 3.978.5
       '@aws-sdk/credential-provider-node': 3.972.88
@@ -3712,7 +3712,7 @@ snapshots:
 
   '@pulumi/aws@7.51.1(typescript@7.0.2)':
     dependencies:
-      '@pulumi/pulumi': 3.271.0(typescript@7.0.2)
+      '@pulumi/pulumi': 3.272.0(typescript@7.0.2)
       mime: 2.6.0
     transitivePeerDependencies:
       - supports-color
@@ -3721,11 +3721,11 @@ snapshots:
 
   '@pulumi/awsx@3.11.0(typescript@7.0.2)':
     dependencies:
-      '@aws-sdk/client-ecs': 3.1155.0
+      '@aws-sdk/client-ecs': 3.1156.0
       '@pulumi/aws': 7.51.1(typescript@7.0.2)
       '@pulumi/docker': 4.11.2(typescript@7.0.2)
       '@pulumi/docker-build': 0.0.14(typescript@7.0.2)
-      '@pulumi/pulumi': 3.271.0(typescript@7.0.2)
+      '@pulumi/pulumi': 3.272.0(typescript@7.0.2)
       '@types/aws-lambda': 8.10.164
       docker-classic: '@pulumi/docker@3.6.1(typescript@7.0.2)'
       mime: 2.6.0
@@ -3736,7 +3736,7 @@ snapshots:
 
   '@pulumi/docker-build@0.0.14(typescript@7.0.2)':
     dependencies:
-      '@pulumi/pulumi': 3.271.0(typescript@7.0.2)
+      '@pulumi/pulumi': 3.272.0(typescript@7.0.2)
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -3744,7 +3744,7 @@ snapshots:
 
   '@pulumi/docker@3.6.1(typescript@7.0.2)':
     dependencies:
-      '@pulumi/pulumi': 3.271.0(typescript@7.0.2)
+      '@pulumi/pulumi': 3.272.0(typescript@7.0.2)
       semver: 5.7.2
     transitivePeerDependencies:
       - supports-color
@@ -3753,14 +3753,14 @@ snapshots:
 
   '@pulumi/docker@4.11.2(typescript@7.0.2)':
     dependencies:
-      '@pulumi/pulumi': 3.271.0(typescript@7.0.2)
+      '@pulumi/pulumi': 3.272.0(typescript@7.0.2)
       semver: 5.7.2
     transitivePeerDependencies:
       - supports-color
       - ts-node
       - typescript
 
-  '@pulumi/pulumi@3.271.0(typescript@7.0.2)':
+  '@pulumi/pulumi@3.272.0(typescript@7.0.2)':
     dependencies:
       '@grpc/grpc-js': 1.14.6
       '@logdna/tail-file': 2.2.0
@@ -4219,7 +4219,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 55.2.0
       constructs: 10.8.1
 
-  aws-cdk@2.1146.0: {}
+  aws-cdk@2.1146.1: {}
 
   balanced-match@1.0.2: {}
 
